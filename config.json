@@ -1,0 +1,29 @@
+{
+  "main": {
+    "volumes": [
+      "/var/opt/jupyter"
+    ],
+    "expose": [
+      8888
+    ]
+  },
+  "side_containers": {
+    "notebook": {
+      "image": "lokoai/jupyter_datascience",
+      "ports": {
+        "8888": null
+      },
+      "expose": [
+        8888
+      ],
+      "gui": {
+        "name": "notebook",
+        "path": "/"
+      },
+      "volumes": [
+        "/home/fulvio/loko/data:/home/jovyan/work",
+        "/var/opt/jupyter/:/home/jovyan/notebooks"
+      ]
+    }
+  }
+}
