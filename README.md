@@ -4,7 +4,7 @@ This plugin allows you to easily integrate a Jupyter Notebook into LOKO AI. With
 
 ## :electric_plug: Installation
 
-- **Step 1:** In the top section click on the "Applications" field. ![application section](resources/applications_section.png)
+- **Step 1:** In the LOKO navigation bar click on the "Applications" section.
 
 - **Step 2:** In the Applications section, you can find the installed extensions and the available ones. Click on the install button.
 
